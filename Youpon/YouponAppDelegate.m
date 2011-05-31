@@ -24,8 +24,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //Init the LoginViewContoller
+    loginViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+    
     // Add the tab bar controller's current view as a subview of the window
     self.window.rootViewController = self.tabBarController;
+    
+    //Present login view
+    [self.tabBarController presentModalViewController:loginViewController animated:YES];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -87,10 +94,29 @@
 - (void)saveContext
 {
     NSError *error = nil;
-    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
-    if (managedObjectContext != nil)
+    
+    //XCode provided default code below that has issues because it hides the instance variable
+    
+//    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
+//    if (managedObjectContext != nil)
+//    {
+//        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error])
+//        {
+//            /*
+//             Replace this implementation with code to handle the error appropriately.
+//             
+//             abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. If it is not possible to recover from the error, display an alert panel that instructs the user to quit the application by pressing the Home button.
+//             */
+//            NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+//            abort();
+//        } 
+//    }
+    
+    //My version of the same
+    
+    if (__managedObjectContext != nil)
     {
-        if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error])
+        if ([__managedObjectContext hasChanges] && ![__managedObjectContext save:&error])
         {
             /*
              Replace this implementation with code to handle the error appropriately.
@@ -101,6 +127,8 @@
             abort();
         } 
     }
+
+    
 }
 
 #pragma mark - Core Data stack
