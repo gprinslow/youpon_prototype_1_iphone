@@ -81,6 +81,36 @@
 #pragma mark - Custom Action Methods
 
 - (IBAction)doLoginAction:(id)sender {
+    
+    //Successful login - dismiss the modal Login view from TabBarViewController
     [self.parentViewController dismissModalViewControllerAnimated:YES];
 }
+
+- (IBAction)usernameTextFieldDoneEditing:(id)sender {
+    [sender resignFirstResponder];
+    if (txtfPIN.enabled) {        
+        [txtfPIN becomeFirstResponder];
+    }
+    else {
+        [txtfPassword becomeFirstResponder];
+    }
+}
+
+- (IBAction)passwordTextFieldDoneEditing:(id)sender {
+    [sender resignFirstResponder];
+    [self doLoginAction:sender];
+}
+
+- (IBAction)pinTextFieldDoneEditing:(id)sender {
+    [sender resignFirstResponder];
+    [self doLoginAction:sender];
+}
+
+- (IBAction)backgroundTouch:(id)sender {
+    [txtfUsername resignFirstResponder];
+    [txtfPassword resignFirstResponder];
+    [txtfPIN resignFirstResponder];
+}
+
+
 @end

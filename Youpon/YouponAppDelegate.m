@@ -79,6 +79,8 @@
     [__managedObjectContext release];
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
+    //Added: release loginViewController
+    [loginViewController release];
     [_tabBarController release];
     [super dealloc];
 }

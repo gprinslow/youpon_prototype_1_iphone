@@ -21,6 +21,10 @@
 }
 
 - (IBAction)doLoginAction:(id)sender;
+- (IBAction)usernameTextFieldDoneEditing:(id)sender;
+- (IBAction)passwordTextFieldDoneEditing:(id)sender;
+- (IBAction)pinTextFieldDoneEditing:(id)sender;
+- (IBAction)backgroundTouch:(id)sender;
 
 
 
