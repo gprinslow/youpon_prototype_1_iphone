@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		851F38C913948F63000A6FFB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851F38C713948F62000A6FFB /* LoginViewController.m */; };
+		851F38CA13948F63000A6FFB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851F38C813948F62000A6FFB /* LoginViewController.xib */; };
 		859449B013943DE800D95AC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859449AF13943DE800D95AC5 /* UIKit.framework */; };
 		859449B213943DE800D95AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859449B113943DE800D95AC5 /* Foundation.framework */; };
 		859449B413943DE800D95AC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859449B313943DE800D95AC5 /* CoreGraphics.framework */; };
@@ -40,29 +42,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		851F38C613948F62000A6FFB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		851F38C713948F62000A6FFB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		851F38C813948F62000A6FFB /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		859449AB13943DE800D95AC5 /* Youpon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youpon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		859449AF13943DE800D95AC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		859449B113943DE800D95AC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		859449B313943DE800D95AC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		859449B513943DE800D95AC5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		859449B913943DE800D95AC5 /* Youpon-Info.plist */ = {isa = PBXFileReference; path = "Youpon-Info.plist"; sourceTree = "<group>"; };
+		859449B913943DE800D95AC5 /* Youpon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Youpon-Info.plist"; sourceTree = "<group>"; };
 		859449BB13943DE800D95AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		859449BD13943DE800D95AC5 /* Youpon-Prefix.pch */ = {isa = PBXFileReference; path = "Youpon-Prefix.pch"; sourceTree = "<group>"; };
+		859449BD13943DE800D95AC5 /* Youpon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Youpon-Prefix.pch"; sourceTree = "<group>"; };
 		859449BE13943DE800D95AC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		859449C013943DE800D95AC5 /* YouponAppDelegate.h */ = {isa = PBXFileReference; path = YouponAppDelegate.h; sourceTree = "<group>"; };
+		859449C013943DE800D95AC5 /* YouponAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouponAppDelegate.h; sourceTree = "<group>"; };
 		859449C113943DE800D95AC5 /* YouponAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouponAppDelegate.m; sourceTree = "<group>"; };
 		859449C413943DE800D95AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		859449C713943DE800D95AC5 /* Youpon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Youpon.xcdatamodel; sourceTree = "<group>"; };
-		859449C913943DE800D95AC5 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		859449C913943DE800D95AC5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		859449CA13943DE800D95AC5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		859449CC13943DE800D95AC5 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		859449CC13943DE800D95AC5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		859449CD13943DE800D95AC5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		859449D013943DE800D95AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		859449D313943DE800D95AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		859449DA13943DE800D95AC5 /* YouponTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouponTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		859449E313943DE800D95AC5 /* YouponTests-Info.plist */ = {isa = PBXFileReference; path = "YouponTests-Info.plist"; sourceTree = "<group>"; };
+		859449E313943DE800D95AC5 /* YouponTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YouponTests-Info.plist"; sourceTree = "<group>"; };
 		859449E513943DE800D95AC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		859449E713943DE800D95AC5 /* YouponTests-Prefix.pch */ = {isa = PBXFileReference; path = "YouponTests-Prefix.pch"; sourceTree = "<group>"; };
+		859449E713943DE800D95AC5 /* YouponTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouponTests-Prefix.pch"; sourceTree = "<group>"; };
 		859449E813943DE800D95AC5 /* YouponTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouponTests.h; sourceTree = "<group>"; };
 		859449EA13943DE800D95AC5 /* YouponTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouponTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		851F38BA13944C3F000A6FFB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				859449C613943DE800D95AC5 /* Youpon.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		859449A013943DE800D95AC5 = {
 			isa = PBXGroup;
 			children = (
@@ -128,14 +141,9 @@
 			children = (
 				859449C013943DE800D95AC5 /* YouponAppDelegate.h */,
 				859449C113943DE800D95AC5 /* YouponAppDelegate.m */,
-				859449C313943DE800D95AC5 /* MainWindow.xib */,
-				859449C913943DE800D95AC5 /* FirstViewController.h */,
-				859449CA13943DE800D95AC5 /* FirstViewController.m */,
-				859449CC13943DE800D95AC5 /* SecondViewController.h */,
-				859449CD13943DE800D95AC5 /* SecondViewController.m */,
-				859449CF13943DE800D95AC5 /* FirstView.xib */,
-				859449D213943DE800D95AC5 /* SecondView.xib */,
-				859449C613943DE800D95AC5 /* Youpon.xcdatamodeld */,
+				851F38BA13944C3F000A6FFB /* CoreData */,
+				859449FB1394415700D95AC5 /* Interface */,
+				859449FA1394413F00D95AC5 /* ViewControllers */,
 				859449B813943DE800D95AC5 /* Supporting Files */,
 			);
 			path = Youpon;
@@ -170,6 +178,30 @@
 				859449E713943DE800D95AC5 /* YouponTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		859449FA1394413F00D95AC5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				851F38C613948F62000A6FFB /* LoginViewController.h */,
+				851F38C713948F62000A6FFB /* LoginViewController.m */,
+				859449C913943DE800D95AC5 /* FirstViewController.h */,
+				859449CA13943DE800D95AC5 /* FirstViewController.m */,
+				859449CC13943DE800D95AC5 /* SecondViewController.h */,
+				859449CD13943DE800D95AC5 /* SecondViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		859449FB1394415700D95AC5 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				859449C313943DE800D95AC5 /* MainWindow.xib */,
+				859449CF13943DE800D95AC5 /* FirstView.xib */,
+				859449D213943DE800D95AC5 /* SecondView.xib */,
+				851F38C813948F62000A6FFB /* LoginViewController.xib */,
+			);
+			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +278,7 @@
 				859449C513943DE800D95AC5 /* MainWindow.xib in Resources */,
 				859449D113943DE800D95AC5 /* FirstView.xib in Resources */,
 				859449D413943DE800D95AC5 /* SecondView.xib in Resources */,
+				851F38CA13948F63000A6FFB /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +319,7 @@
 				859449C813943DE800D95AC5 /* Youpon.xcdatamodeld in Sources */,
 				859449CB13943DE800D95AC5 /* FirstViewController.m in Sources */,
 				859449CE13943DE800D95AC5 /* SecondViewController.m in Sources */,
+				851F38C913948F63000A6FFB /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +427,7 @@
 				GCC_PREFIX_HEADER = "Youpon/Youpon-Prefix.pch";
 				INFOPLIST_FILE = "Youpon/Youpon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,6 +441,7 @@
 				GCC_PREFIX_HEADER = "Youpon/Youpon-Prefix.pch";
 				INFOPLIST_FILE = "Youpon/Youpon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -474,6 +510,7 @@
 				859449F013943DE800D95AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		859449F113943DE800D95AC5 /* Build configuration list for PBXNativeTarget "YouponTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +519,7 @@
 				859449F313943DE800D95AC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
