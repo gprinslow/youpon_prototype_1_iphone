@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "LoginViewController.h"
+#import "ServiceRequest.h"
+#import "ServiceResponse.h"
+#import "LoginServiceStub.h"
 
 @interface YouponAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
     //Interface references
@@ -39,6 +42,7 @@
 - (NSURL *)applicationDocumentsDirectory;
 
 //Custom methods
+- (ServiceResponse *)callLoginService:(ServiceRequest *)loginRequest;
 
 
 @end

@@ -7,7 +7,9 @@
 //
 
 #import "LoginViewController.h"
-
+#import "ServiceRequest.h"
+#import "ServiceResponse.h"
+#import "YouponAppDelegate.h"
 
 @implementation LoginViewController
 
@@ -82,8 +84,61 @@
 
 - (IBAction)doLoginAction:(id)sender {
     
-    //Successful login - dismiss the modal Login view from TabBarViewController
-    [self.parentViewController dismissModalViewControllerAnimated:YES];
+    ServiceRequest *theLoginRequest = [[ServiceRequest alloc] init];
+    ServiceResponse *theLoginResponse = [[ServiceResponse alloc] init];
+    
+    [theLoginRequest setRequestTime:[NSDate date]];
+    [theLoginRequest setRequestType:@"LOGIN"];
+    [theLoginRequest setRequestorUsername:[txtfUsername text]];
+    [theLoginRequest setRequestorPassword:[txtfPassword text]];
+    
+    YouponAppDelegate *appDelegate = (YouponAppDelegate *)[[UIApplication sharedApplication] delegate];
+    theLoginResponse = [appDelegate callLoginService:theLoginRequest]; 
+    
+    //Basic check for successful login
+    //TODO: improve for various situations in use case
+    if (theLoginResponse != nil) {
+        if ([theLoginResponse responseCode] != nil) {
+            if ([[theLoginResponse responseCode] isEqualToString:@"SUCCESS"]) {
+                //Successful login - dismiss the modal Login view from TabBarViewController
+                [self.parentViewController dismissModalViewControllerAnimated:YES];
+            }
+            else if ([[theLoginResponse responseCode] isEqualToString:@"INVALID_PASSWORD"]) {
+                [txtfPassword setHighlighted:TRUE];
+                NSLog(@"Invalid login attempt - Invalid password for this username");
+            }
+            else if ([[theLoginResponse responseCode] isEqualToString:@"INVALID_USERNAME"]) {
+                [txtfUsername setHighlighted:TRUE];
+                [txtfPassword setHighlighted:TRUE];
+                NSLog(@"Invalid login attempt - Invalid username");
+            }
+            else {
+                [txtfUsername setHighlighted:TRUE];
+                [txtfPassword setHighlighted:TRUE];
+                [txtfPIN setHighlighted:TRUE];
+                NSLog(@"Invalid login attempt - LoginResponse-responseCode is unrecognized");
+            }
+        }
+        else {
+            [txtfUsername setHighlighted:TRUE];
+            [txtfPassword setHighlighted:TRUE];
+            [txtfPIN setHighlighted:TRUE];
+            NSLog(@"Invalid login attempt - LoginResponse-responseCode is null");
+        }
+    }
+    else {
+        [txtfUsername setHighlighted:TRUE];
+        [txtfPassword setHighlighted:TRUE];
+        [txtfPIN setHighlighted:TRUE];
+        NSLog(@"Invalid login attempt - LoginResponse is null");
+    }
+    
+    
+    //Memory management
+    [theLoginRequest release];
+    theLoginRequest = nil;
+    [theLoginResponse release];
+    theLoginResponse = nil;
 }
 
 - (IBAction)usernameTextFieldDoneEditing:(id)sender {

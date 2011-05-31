@@ -21,6 +21,9 @@
 
 @synthesize tabBarController=_tabBarController;
 
+
+#pragma mark - Application lifecycle
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
@@ -92,6 +95,21 @@
      self.<#View controller#>.managedObjectContext = self.managedObjectContext;
     */
 }
+
+#pragma mark - Service Calls
+/*
+ * Login Service Call
+ */
+- (ServiceResponse *)callLoginService:(ServiceRequest *)loginRequest {
+    LoginServiceStub *loginService = [[[LoginServiceStub alloc] init] autorelease];
+    
+    return [loginService callLoginServiceStub:loginRequest];
+}
+
+
+
+
+#pragma mark - Core Data
 
 - (void)saveContext
 {
