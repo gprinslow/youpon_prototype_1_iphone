@@ -29,6 +29,8 @@
 		85010F6913972D9000320A0E /* ProfileMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85010F6713972D9000320A0E /* ProfileMainViewController.xib */; };
 		85010F6D13972E0600320A0E /* SettingsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85010F6B13972E0500320A0E /* SettingsMainViewController.m */; };
 		85010F6E13972E0600320A0E /* SettingsMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85010F6C13972E0500320A0E /* SettingsMainViewController.xib */; };
+		85132B091398126000AA74F3 /* OffersMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85132B071398125F00AA74F3 /* OffersMainNavigationController.m */; };
+		85132B0A1398126000AA74F3 /* OffersMainNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85132B081398125F00AA74F3 /* OffersMainNavigationController.xib */; };
 		851F38C913948F63000A6FFB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851F38C713948F62000A6FFB /* LoginViewController.m */; };
 		851F38CA13948F63000A6FFB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851F38C813948F62000A6FFB /* LoginViewController.xib */; };
 		851F38CD139573F5000A6FFB /* ServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 851F38CC139573F5000A6FFB /* ServiceRequest.m */; };
@@ -90,6 +92,9 @@
 		85010F6A13972E0500320A0E /* SettingsMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMainViewController.h; sourceTree = "<group>"; };
 		85010F6B13972E0500320A0E /* SettingsMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsMainViewController.m; sourceTree = "<group>"; };
 		85010F6C13972E0500320A0E /* SettingsMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsMainViewController.xib; sourceTree = "<group>"; };
+		85132B061398125F00AA74F3 /* OffersMainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersMainNavigationController.h; sourceTree = "<group>"; };
+		85132B071398125F00AA74F3 /* OffersMainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersMainNavigationController.m; sourceTree = "<group>"; };
+		85132B081398125F00AA74F3 /* OffersMainNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffersMainNavigationController.xib; sourceTree = "<group>"; };
 		851F38C613948F62000A6FFB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		851F38C713948F62000A6FFB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		851F38C813948F62000A6FFB /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -186,6 +191,7 @@
 				85E541EA139806E600A2CB01 /* OffersMainViewController.h */,
 				85E541EB139806E600A2CB01 /* OffersMainViewController.m */,
 				85E541EC139806E600A2CB01 /* OffersMainViewController.xib */,
+				85132B081398125F00AA74F3 /* OffersMainNavigationController.xib */,
 			);
 			name = TO_DELETE;
 			sourceTree = "<group>";
@@ -307,6 +313,8 @@
 				85010F6613972D9000320A0E /* ProfileMainViewController.m */,
 				85010F6A13972E0500320A0E /* SettingsMainViewController.h */,
 				85010F6B13972E0500320A0E /* SettingsMainViewController.m */,
+				85132B061398125F00AA74F3 /* OffersMainNavigationController.h */,
+				85132B071398125F00AA74F3 /* OffersMainNavigationController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -416,6 +424,7 @@
 				85010F6913972D9000320A0E /* ProfileMainViewController.xib in Resources */,
 				85010F6E13972E0600320A0E /* SettingsMainViewController.xib in Resources */,
 				85E541EE139806E600A2CB01 /* OffersMainViewController.xib in Resources */,
+				85132B0A1398126000AA74F3 /* OffersMainNavigationController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +471,7 @@
 				85010F6813972D9000320A0E /* ProfileMainViewController.m in Sources */,
 				85010F6D13972E0600320A0E /* SettingsMainViewController.m in Sources */,
 				85E541ED139806E600A2CB01 /* OffersMainViewController.m in Sources */,
+				85132B091398126000AA74F3 /* OffersMainNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
