@@ -2,7 +2,7 @@
 //  OffersMainViewController.m
 //  Youpon
 //
-//  Created by Garrison on 6/1/11.
+//  Created by Garrison on 6/2/11.
 //  Copyright 2011 Garrison Prinslow. All rights reserved.
 //
 

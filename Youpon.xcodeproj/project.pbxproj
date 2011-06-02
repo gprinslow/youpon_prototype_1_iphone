@@ -23,8 +23,6 @@
 		85010F4F1396F2E200320A0E /* 145-persondot.png in Resources */ = {isa = PBXBuildFile; fileRef = 85010F3F1396F2E200320A0E /* 145-persondot.png */; };
 		85010F501396F2E200320A0E /* 172-pricetag.png in Resources */ = {isa = PBXBuildFile; fileRef = 85010F401396F2E200320A0E /* 172-pricetag.png */; };
 		85010F511396F2E200320A0E /* 191-collection.png in Resources */ = {isa = PBXBuildFile; fileRef = 85010F411396F2E200320A0E /* 191-collection.png */; };
-		85010F5E13972BA100320A0E /* OffersMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85010F5C13972BA100320A0E /* OffersMainViewController.m */; };
-		85010F5F13972BA100320A0E /* OffersMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85010F5D13972BA100320A0E /* OffersMainViewController.xib */; };
 		85010F6313972C3F00320A0E /* MapMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85010F6113972C3F00320A0E /* MapMainViewController.m */; };
 		85010F6413972C3F00320A0E /* MapMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85010F6213972C3F00320A0E /* MapMainViewController.xib */; };
 		85010F6813972D9000320A0E /* ProfileMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85010F6613972D9000320A0E /* ProfileMainViewController.m */; };
@@ -52,6 +50,8 @@
 		859449E613943DE800D95AC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 859449E413943DE800D95AC5 /* InfoPlist.strings */; };
 		859449E913943DE800D95AC5 /* YouponTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 859449E813943DE800D95AC5 /* YouponTests.h */; };
 		859449EB13943DE800D95AC5 /* YouponTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 859449EA13943DE800D95AC5 /* YouponTests.m */; };
+		85E541ED139806E600A2CB01 /* OffersMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E541EB139806E600A2CB01 /* OffersMainViewController.m */; };
+		85E541EE139806E600A2CB01 /* OffersMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E541EC139806E600A2CB01 /* OffersMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,9 +81,6 @@
 		85010F3F1396F2E200320A0E /* 145-persondot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "145-persondot.png"; sourceTree = "<group>"; };
 		85010F401396F2E200320A0E /* 172-pricetag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "172-pricetag.png"; sourceTree = "<group>"; };
 		85010F411396F2E200320A0E /* 191-collection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "191-collection.png"; sourceTree = "<group>"; };
-		85010F5B13972BA100320A0E /* OffersMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersMainViewController.h; sourceTree = "<group>"; };
-		85010F5C13972BA100320A0E /* OffersMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersMainViewController.m; sourceTree = "<group>"; };
-		85010F5D13972BA100320A0E /* OffersMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffersMainViewController.xib; sourceTree = "<group>"; };
 		85010F6013972C3E00320A0E /* MapMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapMainViewController.h; sourceTree = "<group>"; };
 		85010F6113972C3F00320A0E /* MapMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMainViewController.m; sourceTree = "<group>"; };
 		85010F6213972C3F00320A0E /* MapMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapMainViewController.xib; sourceTree = "<group>"; };
@@ -121,6 +118,9 @@
 		859449E713943DE800D95AC5 /* YouponTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouponTests-Prefix.pch"; sourceTree = "<group>"; };
 		859449E813943DE800D95AC5 /* YouponTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YouponTests.h; sourceTree = "<group>"; };
 		859449EA13943DE800D95AC5 /* YouponTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouponTests.m; sourceTree = "<group>"; };
+		85E541EA139806E600A2CB01 /* OffersMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersMainViewController.h; sourceTree = "<group>"; };
+		85E541EB139806E600A2CB01 /* OffersMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersMainViewController.m; sourceTree = "<group>"; };
+		85E541EC139806E600A2CB01 /* OffersMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffersMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +178,16 @@
 				85010F411396F2E200320A0E /* 191-collection.png */,
 			);
 			name = TabBarIcons;
+			sourceTree = "<group>";
+		};
+		85132B0513980EDF00AA74F3 /* TO_DELETE */ = {
+			isa = PBXGroup;
+			children = (
+				85E541EA139806E600A2CB01 /* OffersMainViewController.h */,
+				85E541EB139806E600A2CB01 /* OffersMainViewController.m */,
+				85E541EC139806E600A2CB01 /* OffersMainViewController.xib */,
+			);
+			name = TO_DELETE;
 			sourceTree = "<group>";
 		};
 		851F38BA13944C3F000A6FFB /* CoreData */ = {
@@ -241,6 +251,7 @@
 		859449B713943DE800D95AC5 /* Youpon */ = {
 			isa = PBXGroup;
 			children = (
+				85132B0513980EDF00AA74F3 /* TO_DELETE */,
 				85010F301396F05800320A0E /* Images */,
 				859449C013943DE800D95AC5 /* YouponAppDelegate.h */,
 				859449C113943DE800D95AC5 /* YouponAppDelegate.m */,
@@ -292,8 +303,6 @@
 				851F38C713948F62000A6FFB /* LoginViewController.m */,
 				85010F6013972C3E00320A0E /* MapMainViewController.h */,
 				85010F6113972C3F00320A0E /* MapMainViewController.m */,
-				85010F5C13972BA100320A0E /* OffersMainViewController.m */,
-				85010F5B13972BA100320A0E /* OffersMainViewController.h */,
 				85010F6513972D9000320A0E /* ProfileMainViewController.h */,
 				85010F6613972D9000320A0E /* ProfileMainViewController.m */,
 				85010F6A13972E0500320A0E /* SettingsMainViewController.h */,
@@ -308,7 +317,6 @@
 				859449C313943DE800D95AC5 /* MainWindow.xib */,
 				851F38C813948F62000A6FFB /* LoginViewController.xib */,
 				85010F6213972C3F00320A0E /* MapMainViewController.xib */,
-				85010F5D13972BA100320A0E /* OffersMainViewController.xib */,
 				85010F6713972D9000320A0E /* ProfileMainViewController.xib */,
 				85010F6C13972E0500320A0E /* SettingsMainViewController.xib */,
 			);
@@ -404,10 +412,10 @@
 				85010F4F1396F2E200320A0E /* 145-persondot.png in Resources */,
 				85010F501396F2E200320A0E /* 172-pricetag.png in Resources */,
 				85010F511396F2E200320A0E /* 191-collection.png in Resources */,
-				85010F5F13972BA100320A0E /* OffersMainViewController.xib in Resources */,
 				85010F6413972C3F00320A0E /* MapMainViewController.xib in Resources */,
 				85010F6913972D9000320A0E /* ProfileMainViewController.xib in Resources */,
 				85010F6E13972E0600320A0E /* SettingsMainViewController.xib in Resources */,
+				85E541EE139806E600A2CB01 /* OffersMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,10 +458,10 @@
 				851F38CD139573F5000A6FFB /* ServiceRequest.m in Sources */,
 				851F38D013957408000A6FFB /* ServiceResponse.m in Sources */,
 				851F38D513958C74000A6FFB /* LoginServiceStub.m in Sources */,
-				85010F5E13972BA100320A0E /* OffersMainViewController.m in Sources */,
 				85010F6313972C3F00320A0E /* MapMainViewController.m in Sources */,
 				85010F6813972D9000320A0E /* ProfileMainViewController.m in Sources */,
 				85010F6D13972E0600320A0E /* SettingsMainViewController.m in Sources */,
+				85E541ED139806E600A2CB01 /* OffersMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
